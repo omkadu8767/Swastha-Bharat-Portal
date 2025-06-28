@@ -6,7 +6,8 @@
 
 ## About
 
-Swastha Bharat Portal is a modern, secure, and user-friendly full-stack web application for managing healthcare needs efficiently. Built with React, Vite, Node.js, Express, and MongoDB, it provides a seamless experience for users to register, book appointments, and order medicines online from any device.
+Swastha Bharat Portal is a modern, secure, and user-friendly full-stack web application for managing healthcare needs efficiently. Built with React, Vite, Node.js, Express, and MongoDB, it provides a seamless experience for users to register, book appointments, and order medicines online from any device.\
+**This web app also includes an Admin Dashboard for managing users, appointments, and orders.**
 
 ---
 
@@ -42,6 +43,7 @@ Swastha Bharat Portal is a modern, secure, and user-friendly full-stack web appl
 ![Appointment Booking](./public/booking.png)
 ![Order Medicines](./public/order.png)
 ![Profile Page](./public/profile.png)
+![Admib Page](./public/admin.png)
 
 ---
 
