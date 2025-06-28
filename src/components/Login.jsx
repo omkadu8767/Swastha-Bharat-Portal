@@ -6,7 +6,7 @@ import Header from './Header';
 
 const Login = () => {
   const { login } = useAuth();
-  const host = "http://localhost:5000";
+  const host = import.meta.env.VITE_API;
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   let navigate = useNavigate();
 

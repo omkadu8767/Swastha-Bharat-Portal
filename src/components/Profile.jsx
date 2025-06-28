@@ -6,7 +6,7 @@ const Profile = () => {
     const [user, setUser] = useState({ name: "", email: "" });
     const [appointments, setAppointments] = useState([]);
     const [orders, setOrders] = useState([]);
-    const host = "http://localhost:5000";
+    const host = import.meta.env.VITE_API;
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [editAppointment, setEditAppointment] = useState(null);
 

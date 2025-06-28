@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 const Order = () => {
-    const host = "http://localhost:5000";
+    const host = import.meta.env.VITE_API;
     const [cart, setCart] = useState([]);
     const [form, setForm] = useState({
         medicineName: "",

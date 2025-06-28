@@ -5,11 +5,12 @@ const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
     const [isAdmin, setIsAdmin] = useState(false);
+    const host = import.meta.env.VITE_API;
 
     // Fetch user info from backend
     const fetchUserInfo = async (token) => {
         try {
-            const response = await fetch("http://localhost:5000/api/auth/me", {
+            const response = await fetch(`${host}/api/auth/me`, {
                 headers: {
                     "Content-Type": "application/json",
                     "auth-token": token,

@@ -13,7 +13,7 @@ const initialState = {
 };
 
 const Book = () => {
-    const host = "http://localhost:5000";
+    const host = import.meta.env.VITE_API;
     const [form, setForm] = useState(initialState);
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);

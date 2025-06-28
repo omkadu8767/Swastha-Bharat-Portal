@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const host = "http://localhost:5000";
+const host = import.meta.env.VITE_API;
 
 const getUserId = (userField) => {
     if (!userField) return "";
