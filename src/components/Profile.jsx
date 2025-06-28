@@ -200,7 +200,7 @@ const Profile = () => {
             <div className="flex flex-col items-center mb-10">
                 <Avatar className="w-28 h-28 mb-4">
                     <AvatarImage
-                        src="https:/api.dicebear.com/7.x/bottts/svg?seed=profile"
+                        src="https://api.dicebear.com/7.x/bottts/svg?seed=profile"
                         alt="User avatar"
                         className="rounded-full"
                     />
